@@ -1,3 +1,4 @@
+package foreach;
 
 /**
  * Created by Vlad on 14.01.2016.
