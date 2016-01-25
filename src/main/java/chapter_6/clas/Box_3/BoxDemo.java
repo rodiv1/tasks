@@ -1,12 +1,15 @@
-package clas.Box_2;
+package chapter_6.clas.Box_3;
 
 /**
  * Created by Vlad on 25.01.2016.
  */
 public class BoxDemo {
     public static void main(String[] args) {
+
         Box mybox1 = new Box();
         Box mybox2 = new Box();
+
+        double vol;
 
         mybox1.depth = 10;
         mybox1.height = 15;
@@ -16,8 +19,11 @@ public class BoxDemo {
         mybox2.height = 6;
         mybox2.depth = 9;
 
-        mybox1.volume();
+        vol = mybox1.volume();
+        System.out.println("Volume is equal to: " + vol);
 
-        mybox2.volume();
+
+        System.out.println("Volume is equal to: " + mybox2.volume());
+
     }
 }

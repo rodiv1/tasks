@@ -1,4 +1,4 @@
-package clas.stack;
+package chapter_6.clas.stack;
 
 /**
  * Created by Vlad on 25.01.2016.

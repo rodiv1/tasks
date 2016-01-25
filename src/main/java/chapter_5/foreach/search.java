@@ -1,4 +1,4 @@
-package foreach;
+package chapter_5.foreach;
 
 import java.util.Scanner;
 

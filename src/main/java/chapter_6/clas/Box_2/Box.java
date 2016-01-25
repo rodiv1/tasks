@@ -1,4 +1,4 @@
-package clas.Box_2;
+package chapter_6.clas.Box_2;
 
 /**
  * Created by Vlad on 25.01.2016.

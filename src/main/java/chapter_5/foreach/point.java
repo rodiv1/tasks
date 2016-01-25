@@ -1,4 +1,4 @@
-package foreach;
+package chapter_5.foreach;
 
 /**
  * Created by Vlad on 22.01.2016.

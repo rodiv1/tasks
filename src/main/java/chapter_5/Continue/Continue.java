@@ -1,4 +1,4 @@
-package Continue;
+package chapter_5.Continue;
 
 /**
  * Created by Vlad on 22.01.2016.
