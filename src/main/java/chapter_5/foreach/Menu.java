@@ -42,6 +42,7 @@ public class Menu {
                 System.out.println("do {");
                 System.out.println("оператор");
                 System.out.println("}while(условие)");
+                break;
             case '5':
                 System.out.println("for:\n");
                 System.out.println("for(инициализация; условие; итерация)");

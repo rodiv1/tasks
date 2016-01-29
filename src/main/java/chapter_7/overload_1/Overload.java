@@ -7,7 +7,7 @@ public class Overload {
     public static void main(String[] args) {
         OverloadDemo ob = new OverloadDemo();
         double result;
-        int res;
+
 
         ob.test();
         ob.test(10,20);
