@@ -3,7 +3,7 @@ package chapter_7.recursion;
 /**
  * Created by Vlad on 31.01.2016.
  */
-public class Factorial {
+public class  Factorial {
     int fact(int n){
         int result;
 
