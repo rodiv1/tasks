@@ -1,6 +1,7 @@
 package Vlad.course.lesson2.hometask;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 
 /**
@@ -12,9 +13,16 @@ import java.util.Arrays;
  */
 public class task02 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter size of array: ");
+        int M = sc.nextInt();
 
-        int[] mas = {1,2,3};
+        int[] mas = new int[M];
 
+        for (int i = 0; i < mas.length; i++){
+
+            mas[i] = i;
+        }
         int a = mas[0];
         mas[0] = mas[mas.length -1];
         mas[mas.length - 1] = a;

@@ -13,19 +13,14 @@ import java.util.Scanner;
 public class task03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter size of array: ");
+        int size = sc.nextInt();
+        int[] mas = new int[size];
+        System.out.println("Enter elements of array: ");
+        for(int i = 0; i < mas.length -1; i++){
+            mas[i] = sc.nextInt();
+        }
 
-        int[] mas = new int[10];
-        System.out.println("Enter elements(10) of array: ");
-        mas[0] = sc.nextInt();
-        mas[1] = sc.nextInt();
-        mas[2] = sc.nextInt();
-        mas[3] = sc.nextInt();
-        mas[4] = sc.nextInt();
-        mas[5] = sc.nextInt();
-        mas[6] = sc.nextInt();
-        mas[7] = sc.nextInt();
-        mas[8] = sc.nextInt();
-        mas[9] = sc.nextInt();
 
         int[] mas2 = Arrays.copyOfRange(mas,0,mas.length/2);
         int[] mas3 = Arrays.copyOfRange(mas,mas.length/2, mas.length);
