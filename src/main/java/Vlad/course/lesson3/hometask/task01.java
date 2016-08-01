@@ -11,5 +11,13 @@ package Vlad.course.lesson3.hometask;
 public class task01 {
     public static void main(String[] args) {
 
+        //цикли
+         for (int i = 10; i < 20; i++){
+             System.out.print("for: " + i);
+         }
+        int w = 10;
+        while (w < 20){
+            System.out.print("while: " + w);
+        }
     }
 }
