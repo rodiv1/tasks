@@ -1,4 +1,4 @@
-package course.lesson2.hometask;
+package Vlad.course.lesson2.hometask;
 
 /**
  * Created by Гудвін on 30.07.2016.

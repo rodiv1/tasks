@@ -1,4 +1,4 @@
-package MyProject;
+package Vlad.MyProject;
 
 import java.util.Scanner;
 

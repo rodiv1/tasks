@@ -1,4 +1,4 @@
-package Inet;
+package Vlad.Inet;
 
 import java.util.Scanner;
 

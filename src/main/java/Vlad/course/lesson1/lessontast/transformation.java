@@ -1,4 +1,4 @@
-package course.lesson1.lessontast;
+package Vlad.course.lesson1.lessontast;
 
 /**
  * Created by Гудвін on 28.07.2016.

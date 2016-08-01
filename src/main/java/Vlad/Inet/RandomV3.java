@@ -1,4 +1,4 @@
-package Inet;
+package Vlad.Inet;
 
 /**
  * Created by Гудвін on 31.07.2016.

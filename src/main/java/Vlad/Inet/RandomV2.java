@@ -1,4 +1,4 @@
-package Inet;
+package Vlad.Inet;
 
 import java.util.Scanner;
 
@@ -26,9 +26,9 @@ public class RandomV2 {
         System.out.println("Я загадав число від -100 до 100, відгадай його.");
         System.out.print("Введи своє число: ");
         Scanner input = new Scanner(System.in);
-        // Число можна відгадати тільки з 10 разів
+        // Число можна відгадати тільки з 7 разів
         int i;
-            for (i = 0; i < 10; i ++){
+            for (i = 0; i < 7; i ++){
                 if (input.hasNextInt()) {
                     user = input.nextInt();
                     if (user == prog) {

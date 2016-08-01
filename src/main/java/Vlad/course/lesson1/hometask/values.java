@@ -1,4 +1,4 @@
-package course.lesson1.hometask;
+package Vlad.course.lesson1.hometask;
 
 import java.util.Scanner;
 
