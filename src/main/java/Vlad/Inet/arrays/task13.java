@@ -8,4 +8,7 @@ package Vlad.Inet.arrays;
  * Создать второй массив только из чётных элементов первого массива, если они там есть, и вывести его на экран.
  */
 public class task13 {
+    public static void main(String[] args) {
+
+    }
 }

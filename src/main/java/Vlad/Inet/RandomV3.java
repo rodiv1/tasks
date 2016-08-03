@@ -5,8 +5,8 @@ package Vlad.Inet;
  */
 public class RandomV3 {
     public static void main(String[] args) {
-        for(int i = 0; i < 25; i++) {
-            int rnd = (int) (Math.random() * 200-100);
+        for(int i = 0; i < 10; i++) {
+            int rnd = (int) (Math.random() * 10);
             System.out.println(rnd);
         }
     }
