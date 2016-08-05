@@ -13,11 +13,12 @@ import java.util.Scanner;
 public class task13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        System.out.println("Enter size of array:");
         int n = sc.nextInt();
         int sec = 0;
-        if (n < 3){
+        if (n <= 3){
             do {
+                System.out.println("Enter up to three");
                 n = sc.nextInt();
             }while (n < 4);
         }
@@ -31,7 +32,6 @@ public class task13 {
                 sec++;
             }
         }
-
         System.out.println(Arrays.toString(arr));
 
         int[] second = new int[sec];
@@ -41,8 +41,11 @@ public class task13 {
                 second[j] = arr[i];
                 j++;
             }
-
         }
-        System.out.println(Arrays.toString(second));
+        if (sec >= 1){
+            System.out.println(Arrays.toString(second));
+        }else if (sec <= 0){
+            System.out.println("The second array is absent");
+        }
     }
 }
