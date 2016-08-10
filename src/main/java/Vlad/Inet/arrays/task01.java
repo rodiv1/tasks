@@ -1,5 +1,7 @@
 package Vlad.Inet.arrays;
 
+import java.util.Arrays;
+
 /**
  * Created by Гудвін on 02.08.2016.
  * Создайте массив из всех чётных чисел от 2 до 20 и выведите элементы массива на экран сначала в строку,
@@ -8,16 +10,18 @@ package Vlad.Inet.arrays;
  */
 public class task01 {
     public static void main(String[] args) {
-        int[] arr = new int[21];
-
-        for (int i = 2; i <= 20; i += 2){
-            arr[i] = i;
-            System.out.print(arr[i] + " ");
+        int[] arr = new int[10];
+        int i, j;
+        for (i = 2, j = 0; i <= 20; i += 2, j++){
+            arr[j] = i;
+            System.out.print(arr[j] + " ");
         }
         System.out.println();
-        for (int i = 2; i <= 20; i += 2){
-            arr[i] = i;
-            System.out.println(arr[i] + " ");
+        System.out.println(Arrays.toString(arr));
+
+        for (i = 2, j = 0; i <= 20; i += 2, j++){
+            arr[j] = i;
+            System.out.println(arr[j] + " ");
         }
 
     }
