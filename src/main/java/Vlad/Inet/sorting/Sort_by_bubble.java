@@ -9,8 +9,8 @@ public class Sort_by_bubble {
     public static void main(String[] args) {
 
         int[] arr = new int[10];
-        for (int i = 0; i < arr.length; i++){
-            int rand = (int)(Math.random() * 20);
+        for (int i = 0; i < arr.length; i++) {
+            int rand = (int) (Math.random() * 20);
             arr[i] = rand;
         }
         System.out.println(Arrays.toString(arr));
@@ -21,36 +21,34 @@ public class Sort_by_bubble {
         * оказываться нужный элемент (его не надо рассматривать снова).
         */
         for (int i = arr.length - 1; i >= 1; i--) {
-        /* В переменной sorted мы будем хранить признак того,
-        * отсортирован ли массив. Перед каждым проходом внутреннего
-        * хоть одну перестановку, то значит ещё не конца отсортирован.
-        * Этот приём, упрощающий сортировку, называется критерием Айверсона.
-        */
             boolean sorted = true;
-        /* Во внутреннем цикле мы проходимся по фрагменту массива, который
-        * определяется внешним циклом. В этом фрагменте мы устанавливаем
-        * правильный порядок между соседними элементами, так попарно
-        * обрабатывая весь фрагмент.
-        */
             for (int j = 0; j < i; j++) {
-        /* Если порядок соседних элементов не правильный, то их
-         * надо обменять местами. И запомнить, что была перестановка.
-         */
-                if (arr[j] > arr[j+1]) {
+                if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
                     sorted = false;
                 }
             }
-        /* Если массив отсортирован (т.е. не было ни одной перестановки
-        * во внутреннем цикле, значит можно прекращать работу внешнего
-        * цикла.
-        */
-            if(sorted) {
+            if (sorted) {
                 break;
             }
         }
         System.out.println(Arrays.toString(arr));
+
+        /*System.out.println("Alternative!");
+
+        for (int i = arr.length - 1; i >= 1; i--) {
+
+            for (int j = 0; j < i; j++) {
+                if (arr[j] == arr[j + 1]) {
+                    do {
+                        int rand = (int) (Math.random() * 20);
+                        arr[i] = rand;
+                    }while (arr[j] != arr[j + 1]);
+                }
+            }
+            System.out.println(Arrays.toString(arr));
+        }*/
     }
 }

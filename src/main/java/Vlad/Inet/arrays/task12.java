@@ -10,23 +10,6 @@ import java.util.Arrays;
  * (т. е. не подходит вариант, когда в массиве постоянно выпадает сначала 6 положительных, а потом 6 отрицательных чисел или
  * же когда элементы постоянно чередуются через один и пр.). Вывести полученный массив на экран.
  *
- else if (arr[i] > 0) {
- plus++;
- if (plus > 6){
- do {
- int rand = (int) (Math.random() * 22 - 11);
- arr[i] = rand;
- }while (arr[i] < 0 && arr[i] != 0);
- }
- }else if (arr[i] < 0){
- minus++;
- if (minus > 6){
- do {
- int rand = (int) (Math.random() * 22 - 11);
- arr[i] = rand;
- }while (arr[i] > 0 && arr[i] != 0);
- }
- }
  */
 public class task12 {
     public static void main(String[] args) {

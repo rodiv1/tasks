@@ -6,7 +6,7 @@ package Vlad.Inet;
 public class RandomV3 {
     public static void main(String[] args) {
         for(int i = 0; i < 10; i++) {
-            int rnd = (int)(Math.random() * 5) ;
+            int rnd = (int)(Math.random() * 9 + 2) ;
             System.out.print(rnd + " ");
         }
     }
