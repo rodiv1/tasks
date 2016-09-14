@@ -21,19 +21,19 @@ public class calcul {
         int result;
         switch (operator){
             case "+":result = first + second;
-                System.out.println("first + second = " + result);
+                System.out.println(first + " + " + second + " = " + result);
                 break;
             case "-":result = first - second;
-                System.out.println("first - second = " + result);
+                System.out.println(first + " - " + second + " = "  + result);
                 break;
             case "*":result = first * second;
-                System.out.println("first * second = " + result);
+                System.out.println(first + " * " + second + " = "  + result);
                 break;
             case "/":result = first / second;
-                System.out.println("first / second = " + result);
+                System.out.println(first + " / " + second + " = " + result);
                 break;
             case "%":result = first % second;
-                System.out.println("first % second = " + result);
+                System.out.println(first + " % " + second + " = "  + result);
                 break;
             default:
                 System.out.println("False operator!");
