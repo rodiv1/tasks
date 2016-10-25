@@ -96,7 +96,8 @@ public class task03 {
                     System.out.println();
                 }
                 }
-
+            
+                
             if (arr[0][0] == 'x' && arr[0][1] == 'x' && arr[0][2] == 'x' || arr[1][0] == 'x' && arr[1][1] == 'x' && arr[1][2] == 'x' ||
                     arr[2][0] == 'x' && arr[2][1] == 'x' && arr[2][2] == 'x' || arr[0][0] == 'x' && arr[1][0] == 'x' && arr[2][0] == 'x'
                     || arr[0][1] == 'x' && arr[1][1] == 'x' && arr[2][1] == 'x' || arr[0][2] == 'x' && arr[1][2] == 'x' && arr[2][2] == 'x'
@@ -114,6 +115,7 @@ public class task03 {
         count++;
             if (count==8){
                 System.out.println("Nobody won!");
+                bool = false;
             }
         }while (bool);
 
